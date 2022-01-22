@@ -1,7 +1,7 @@
 function Calc(opr, x, y) {
-    const isNotValid = typeof x !== 'number' || typeof y !== 'number';
+    const isNotVal = typeof x !== 'number' || typeof y !== 'number';
 
-    if (isNotValid) {
+    if (isNotVal) {
         return "Error";
     }
 
